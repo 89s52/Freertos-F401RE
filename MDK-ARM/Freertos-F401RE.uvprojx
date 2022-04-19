@@ -379,9 +379,6 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>::CMSIS</GroupName>
-        </Group>
-        <Group>
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
@@ -514,6 +511,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/system_stm32f4xx.c</FilePath>
             </File>
+            <File>
+              <FileName>startup_stm32f401xe.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\startup_stm32f401xe.s</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -570,6 +572,9 @@
               <FilePath>../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
